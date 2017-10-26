@@ -53,6 +53,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FactoryMethodPattern.cs" />
     <Compile Include="FoodSimpleFactory.cs" />
     <Compile Include="Singleton.xaml.cs">
       <DependentUpon>Singleton.xaml</DependentUpon>
