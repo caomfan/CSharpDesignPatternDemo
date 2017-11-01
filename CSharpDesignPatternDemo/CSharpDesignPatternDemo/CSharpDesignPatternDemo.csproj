@@ -76,6 +76,14 @@
     <Compile Include="13代理模式\ProxyPattern.cs" />
     <Compile Include="14模板方法\TemplateMethod.cs" />
     <Compile Include="15命令模式\CommandPattern.cs" />
+    <Compile Include="16迭代器模式\IteratorPattern.cs" />
+    <Compile Include="17观察者模式\ObserverPattern.cs" />
+    <Compile Include="18中介者模式\MediatorPattern.cs" />
+    <Compile Include="19状态者模式\StatePattern.cs" />
+    <Compile Include="20策略模式\StrategyPattern.cs" />
+    <Compile Include="21责任链模式\ChainofResponsibility.cs" />
+    <Compile Include="22访问者模式\VistorPattern.cs" />
+    <Compile Include="23备忘录模式\MementoPattern.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -113,9 +121,7 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="16迭代器模式\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
