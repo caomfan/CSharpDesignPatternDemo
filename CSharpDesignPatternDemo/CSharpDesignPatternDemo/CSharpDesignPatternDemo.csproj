@@ -53,16 +53,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="FactoryMethodPattern.cs" />
-    <Compile Include="FoodSimpleFactory.cs" />
-    <Compile Include="Singleton.xaml.cs">
+    <Compile Include="04抽象工厂模式\AbstractFactory.cs" />
+    <Compile Include="03工厂方法模式\FactoryMethodPattern.cs" />
+    <Compile Include="02简单工厂模式\FoodSimpleFactory.cs" />
+    <Compile Include="01单例模式\Singleton.xaml.cs">
       <DependentUpon>Singleton.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="05建造者模式\BuilderPattern.cs" />
+    <Compile Include="06原型模式\PrototypePattern.cs" />
+    <Compile Include="07适配器模式\对象适配器\AdapterPattern2.cs" />
+    <Compile Include="07适配器模式\类适配器\AdapterPattern.cs" />
+    <Compile Include="08桥接模式\BridgePattern.cs" />
+    <Compile Include="09装饰者模式\DecoratorPattern.cs" />
+    <Compile Include="10组合模式\安全式的组合模式\CompositePattern2.cs" />
+    <Compile Include="10组合模式\透明式的组合模式\CompositePattern.cs" />
+    <Compile Include="11外观模式\FacadePattern.cs" />
+    <Compile Include="12享元模式\FlyweightPattern.cs" />
+    <Compile Include="13代理模式\ProxyPattern.cs" />
+    <Compile Include="14模板方法\TemplateMethod.cs" />
+    <Compile Include="15命令模式\CommandPattern.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -71,7 +84,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Singleton.xaml">
+    <Page Include="01单例模式\Singleton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -99,6 +112,9 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="16迭代器模式\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
